@@ -92,9 +92,10 @@ def start():
         print("\033[92m[\033[1m+\033[92m]\033[33mDD0ST00L \033[94m⟩  " +str(u)+ "   \033[96mSENT PACKS " +str()+ "  \033[94m::.." +ip+ "\033[0m" )
         u += 1
         print("\033[92m[\033[1m+\033[92m]\033[97mDD0ST00L \033[94m⟩  " +str(u)+ "   \033[92mSENT PACKS " +str()+ "  \033[31m:::..." +ip+ "\033[0m" )
+          
     except:
-      s.close()
-      print("\033[97m[\033[91m-\033[97m]\033[91mFlooding Done!")
+        s.close()
+        print("\033[97m[\033[91m-\033[97m]\033[91mFlooding Done!")
 
 for x in range(thread):
   thred = threading.Thread(target=start)
