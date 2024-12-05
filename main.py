@@ -93,7 +93,7 @@ def start():
         print("\033[92m[\033[1m+\033[92m] \033[33mTCPFL00D \033[94m  " +str(u)+ "   \033[96mSENT PACKS " +str()+ "  \033[94m" +ip+ "\033[0m" )
         time.sleep(3),
         print("\033[92m[\033[1m+\033[92m] \033[97mTCPFL00D \033[94m  " +str(u)+ "   \033[92mSENT PACKS " +str()+ "  \033[31m" +ip+ "\033[0m" )
-          
+        time.sleep(3), 
     except:
         s.close()
         print("\033[97m[\033[91m-\033[97m]\033[91mFlooding Done!")
